@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  background-image: url(https://images.unsplash.com/photo-1643387927837-6a5780bdfc8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-color: rgb(57, 60, 97);
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+  align-items: center;
+}
+
+.logo p {
+  font-family: sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+.awesome {
+  position: absolute;
+  font-family: sans-serif;
+  left: 0;
+  bottom: 52%;
+  padding-left: 50px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+.awesome p {
+  color: rgb(185, 182, 182);
+}
+
+.awesome button {
+  background-color: rgb(173, 228, 122);
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.second {
+  align-items: center;
+  font-family: sans-serif;
+  padding: 20px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.second img {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.second h3 {
+  text-align: center;
+}
+
+.third {
+  background-color: rgb(235, 233, 233);
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+  font-weight: 50px;
+}
+
+.author {
+  position: absolute;
+  right: 0;
+  padding-right: 100px;
+  padding-bottom: 40px;
+}
+.fourth {
+  padding: 20px;
+  text-align: justify;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.action {
+  font-family: sans-serif;
+  align-items: center;
+  background-color: rgb(85, 164, 238);
+  padding: 20px;
+  height: 100px;
+  width: 800px;
+  position: relative;
+  border-radius: 5px;
+  position: absolute;
+  left: 20%;
+  color: white;
+}
+.action button {
+  color: white;
+  background-color: rgb(85, 164, 238);
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  right: 20%;
+  bottom: 30%;
+  border: solid white;
+}
+.action p {
+  font-size: small;
+  color: rgb(224, 220, 220);
+}
